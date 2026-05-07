@@ -1,0 +1,2 @@
+group.phorus.service.config.WebFluxConfig
+group.phorus.service.service.CrudServiceDependencyResolver
