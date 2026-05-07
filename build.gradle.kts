@@ -54,7 +54,7 @@ dependencies {
     // Test
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.springframework.boot:spring-boot-webtestclient")
-    testImplementation("group.phorus:test-commons:1.1.9")
+    testImplementation("group.phorus:test-commons:1.1.10")
     testRuntimeOnly("com.h2database:h2")
 }
 
