@@ -17,7 +17,18 @@ plugins {
 }
 
 ext["jackson-2-bom.version"] = "2.21.1"
-ext["jackson-bom.version"] = "3.1.0"
+ext["jackson-bom.version"] = "3.1.1"
+
+configurations.all {
+    resolutionStrategy.eachDependency {
+        if (requested.group == "io.netty") {
+            useVersion("4.2.13.Final")
+        }
+        if (requested.group == "org.bouncycastle") {
+            useVersion("1.84")
+        }
+    }
+}
 
 group = "group.phorus"
 description = "Spring Boot starter providing common base classes and autoconfiguration for Spring services."
