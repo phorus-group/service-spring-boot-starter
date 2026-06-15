@@ -18,7 +18,7 @@ plugins {
 
 ext["jackson-2-bom.version"] = "2.21.1"
 ext["jackson-bom.version"] = "3.1.1"
-ext["netty.version"] = "4.2.13.Final"
+ext["netty.version"] = "4.2.15.Final"
 
 group = "group.phorus"
 description = "Spring Boot starter providing common base classes and autoconfiguration for Spring services."
