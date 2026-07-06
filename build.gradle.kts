@@ -16,7 +16,7 @@ plugins {
     jacoco
 }
 
-ext["jackson-2-bom.version"] = "2.21.4"
+ext["jackson-2-bom.version"] = "2.22.0"
 ext["jackson-bom.version"] = "3.1.4"
 ext["logback.version"] = "1.5.33"
 ext["netty.version"] = "4.2.15.Final"
