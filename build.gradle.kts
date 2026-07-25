@@ -16,10 +16,10 @@ plugins {
     jacoco
 }
 
-ext["jackson-2-bom.version"] = "2.22.0"
-ext["jackson-bom.version"] = "3.1.4"
-ext["logback.version"] = "1.5.33"
-ext["netty.version"] = "4.2.15.Final"
+ext["jackson-2-bom.version"] = "2.22.1"
+ext["jackson-bom.version"] = "3.1.5"
+ext["logback.version"] = "1.5.34"
+ext["netty.version"] = "4.2.16.Final"
 
 group = "group.phorus"
 description = "Spring Boot starter providing common base classes and autoconfiguration for Spring services."
