@@ -20,6 +20,7 @@ ext["jackson-2-bom.version"] = "2.22.1"
 ext["jackson-bom.version"] = "3.1.5"
 ext["logback.version"] = "1.5.34"
 ext["netty.version"] = "4.2.16.Final"
+ext["spring-framework.version"] = "7.0.8"
 
 group = "group.phorus"
 description = "Spring Boot starter providing common base classes and autoconfiguration for Spring services."

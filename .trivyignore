@@ -1,3 +1,0 @@
-# CVE-2026-54515: Fixed in jackson-databind 2.21.5/2.22.1, neither of which is released on Maven Central yet.
-# Remove this entry once jackson-2-bom.version is upgraded to 2.21.5, 2.22.1, or higher.
-CVE-2026-54515
