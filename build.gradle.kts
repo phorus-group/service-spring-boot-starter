@@ -65,6 +65,9 @@ configurations.configureEach {
         if (requested.group == "org.bouncycastle") {
             useVersion("1.84")
         }
+        if (requested.group == "org.springframework.data" && requested.name == "spring-data-commons") {
+            useVersion("4.0.6")
+        }
     }
 }
 
