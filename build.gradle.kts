@@ -18,7 +18,9 @@ plugins {
 
 ext["jackson-2-bom.version"] = "2.22.1"
 ext["jackson-bom.version"] = "3.1.5"
+ext["jsoup.version"] = "1.23.1"
 ext["logback.version"] = "1.5.34"
+ext["micrometer.version"] = "1.16.6"
 ext["netty.version"] = "4.2.16.Final"
 ext["spring-framework.version"] = "7.0.8"
 
@@ -64,6 +66,12 @@ configurations.configureEach {
     resolutionStrategy.eachDependency {
         if (requested.group == "org.bouncycastle") {
             useVersion("1.84")
+        }
+        if (requested.group == "org.jsoup" && requested.name == "jsoup") {
+            useVersion("1.23.1")
+        }
+        if (requested.group == "org.springframework.data" && requested.name == "spring-data-commons") {
+            useVersion("4.0.6")
         }
     }
 }
