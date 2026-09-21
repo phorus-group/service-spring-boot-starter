@@ -66,7 +66,7 @@ dependencies {
 configurations.configureEach {
     resolutionStrategy.eachDependency {
         if (requested.group == "org.bouncycastle") {
-            useVersion("1.84")
+            useVersion("1.85")
         }
         if (requested.group == "org.jsoup" && requested.name == "jsoup") {
             useVersion("1.23.1")
