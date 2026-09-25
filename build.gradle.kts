@@ -74,6 +74,9 @@ configurations.configureEach {
         if (requested.group == "org.springframework.data" && requested.name == "spring-data-commons") {
             useVersion("4.0.6")
         }
+        if (requested.group == "org.freemarker" && requested.name == "freemarker") {
+            useVersion("2.3.35")
+        }
     }
 }
 
