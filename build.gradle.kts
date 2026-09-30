@@ -17,8 +17,8 @@ plugins {
 }
 
 ext["freemarker.version"] = "2.3.35"
-ext["jackson-2-bom.version"] = "2.22.1"
-ext["jackson-bom.version"] = "3.1.5"
+ext["jackson-2-bom.version"] = "2.22.2"
+ext["jackson-bom.version"] = "3.1.6"
 ext["jsoup.version"] = "1.23.1"
 ext["log4j2.version"] = "2.25.5"
 ext["logback.version"] = "1.5.34"
